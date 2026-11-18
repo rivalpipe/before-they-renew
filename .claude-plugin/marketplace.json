@@ -1,0 +1,15 @@
+{
+  "name": "rivalpipe",
+  "owner": { "name": "RivalPipe", "url": "https://rivalpipe.com" },
+  "metadata": { "description": "RivalPipe for Claude: your competitors' customers and when they renew, straight into your outreach." },
+  "plugins": [
+    {
+      "name": "rivalpipe",
+      "source": "./plugins/rivalpipe",
+      "description": "Find who uses your competitors and when they renew, get the right contacts, and push them to your outreach tool, in one conversation.",
+      "version": "1.0.0",
+      "category": "sales",
+      "homepage": "https://rivalpipe.com/integrations/"
+    }
+  ]
+}
