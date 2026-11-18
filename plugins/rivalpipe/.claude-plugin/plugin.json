@@ -1,8 +1,17 @@
 {
-  "name": "rivalpipe",
+  "name": "before-they-renew",
   "version": "1.0.0",
-  "description": "Your competitors' customers and their renewal dates, inside Claude. Turn them into contacts and outreach with the tools you already use.",
-  "author": { "name": "RivalPipe", "url": "https://rivalpipe.com" },
-  "homepage": "https://rivalpipe.com/integrations/",
-  "keywords": ["sales", "competitive intelligence", "renewals", "technographics", "lead generation"]
+  "description": "Before They Renew, by RivalPipe. Your competitors' customers and their renewal dates, inside Claude, turned into contacts and outreach with the tools you already use.",
+  "author": {
+    "name": "RivalPipe",
+    "url": "https://rivalpipe.com"
+  },
+  "homepage": "https://rivalpipe.com/claude/",
+  "keywords": [
+    "sales",
+    "competitive intelligence",
+    "renewals",
+    "technographics",
+    "lead generation"
+  ]
 }

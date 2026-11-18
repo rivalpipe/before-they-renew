@@ -1,4 +1,4 @@
-# RivalPipe for Claude
+# Before They Renew, by RivalPipe
 
 Ask Claude who uses your competitors and when they renew, then turn those
 accounts into contacts and outreach with the tools you already use: Apollo,
@@ -15,8 +15,8 @@ See https://rivalpipe.com/pricing/.
 ## Claude Code
 
 ```
-/plugin marketplace add rivalpipe/claude-plugin
-/plugin install rivalpipe@rivalpipe
+/plugin marketplace add rivalpipe/before-they-renew
+/plugin install before-they-renew@rivalpipe
 ```
 
 The first time Claude uses RivalPipe it opens a sign-in page: sign in to
