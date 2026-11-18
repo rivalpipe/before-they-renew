@@ -1,6 +1,6 @@
 ---
 name: renewal-leads
-description: Find companies that use a competitor's product and are coming up for renewal, get the right people to contact, draft renewal-timed outreach, and push the list into the user's sales tools. Use when the user asks things like "who uses PagerDuty and renews soon", "find Okta customers renewing in 90 days", "competitor's customers", "displacement list", "accounts to steal from <vendor>", "renewal leads", or wants competitor customers sent to Apollo, ZoomInfo, Clay, Instantly, HubSpot, Salesforce, Outreach or Smartlead.
+description: Find companies that use a competitor's product and are coming up for renewal, get the right people to contact, draft renewal-timed outreach, and push the list into the user's sales tools. Use when the user asks who uses a competitor and renews soon, for a competitor's customers, a displacement list, accounts to win from a vendor, renewal leads, or wants competitor customers sent to their contact-data, CRM or email outreach tools.
 ---
 
 # Renewal leads from RivalPipe
@@ -12,7 +12,7 @@ and outreach the user can run today, using the tools already connected to Claude
 ## 1. Pin down the ask
 
 From the user's message, get:
-- the competitor vendor(s), e.g. "PagerDuty". Several are fine.
+- the competitor vendor(s), by product name or website. Several are fine.
 - the renewal window, default 90 days;
 - filters if given: country (two-letter code), industry, company size;
 - how many accounts they want (default 25).
@@ -40,10 +40,10 @@ accounts or dates to fill a gap.
 ## 3. Find the people (the user's own tools)
 
 Look at the other tools connected in this session and use the first that fits:
-- **Apollo:** people search by company domain and job titles.
-- **ZoomInfo, Clay, Amplemarket, Unify:** contact enrichment by domain.
-- **HubSpot or Salesforce:** existing contacts at those companies first. Avoid
-  re-prospecting customers or open deals already in the CRM.
+- **Contact-data tools** (people search or enrichment by company domain and
+  job title).
+- **The CRM:** existing contacts at those companies first. Avoid re-prospecting
+  customers or open deals already in the CRM.
 
 Choose titles from the competitor's category:
 - incident management, monitoring, DevOps: VP Engineering, Head of SRE or
@@ -75,10 +75,10 @@ Show a table: company, domain, industry, size, renewal (date or month, as the
 plan allows), contacts, one-line angle.
 
 Then offer the next step with the tools that are connected:
-- **Instantly, Smartlead, Lemlist, Outreach, Apollo sequences:** add the
-  contacts to a campaign or sequence.
-- **HubSpot or Salesforce:** create or update the companies and contacts, with
-  the renewal date on the company.
+- **An email sequencing or campaign tool:** add the contacts to a campaign or
+  sequence.
+- **The CRM:** create or update the companies and contacts, with the renewal
+  date on the company.
 - **No tools:** give a CSV block they can import.
 
 Always show what will be added and ask before adding anyone to a sequence,

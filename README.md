@@ -1,12 +1,11 @@
 # Before They Renew, by RivalPipe
 
 Ask Claude who uses your competitors and when they renew, then turn those
-accounts into contacts and outreach with the tools you already use: Apollo,
-ZoomInfo, Clay, Instantly, HubSpot, Salesforce and more. No switching between
-tools.
+accounts into contacts and outreach with the tools you already use: your CRM,
+contact data and email outreach. No switching between tools.
 
-> "Which US companies using PagerDuty renew in the next 90 days? Find the
-> engineering leaders and add them to my Instantly campaign."
+> "Which companies using my top competitor renew in the next 90 days? Find the
+> engineering leaders and add them to my outreach campaign."
 
 Free accounts get 50 questions a month with a sample of 5 accounts per
 vendor. Paid plans get full lists, and Renewals adds exact renewal dates.
@@ -30,7 +29,7 @@ RivalPipe and click **Allow**. No API key needed.
 2. **Add the skills:** Settings → Capabilities → Skills → Upload skill, once
    for each file: `renewal-leads.zip` and `competitor-watch.zip`
    (from https://rivalpipe.com/claude/).
-3. In a chat, ask: *"Who uses Okta and renews in the next 60 days?"*
+3. In a chat, ask: *"Who uses my main competitor and renews in the next 60 days?"*
 
 ## What's inside
 

@@ -19,7 +19,7 @@ description: A short briefing on what changed for the user's competitors in Riva
    - **Renewing soon:** how many in 30 and 90 days, if the plan includes dates.
 4. End with three concrete next steps, e.g. "Reach out to the 12 accounts
    renewing in 30 days", "Ask me for renewal leads for <vendor>" (the
-   renewal-leads skill), "Push churned accounts to HubSpot".
+   renewal-leads skill), "Push churned accounts to my CRM".
 
 When an answer includes `what_you_are_missing`, pass on what it says, once, with
 its link. Keep the whole briefing under 250 words unless the user asks for more.
